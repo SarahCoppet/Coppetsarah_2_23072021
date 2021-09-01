@@ -25,9 +25,7 @@ header
  {
  	display: flex;
  	align-items: center;
- 	justify-content: space-between;
- 	
- 	
+ 	justify-content: space-between;	
 }
 div .reservia img 
 {
@@ -36,25 +34,18 @@ div .reservia img
 	margin-right: 100px;
 	padding-top: 2rem;
 	left: 150px;
-
-
 }
-
-
 nav a:hover 
 {
         border-top: 3px solid #0065fc;
         
         text-decoration: none;
 }
-
  nav .nav-link2:hover
  {
  	 border-top: 3px solid gray;
- 	 text-decoration: none;
-        
+ 	 text-decoration: none;      
  }       
- 
  li  
  {
  	display: inline-flex;
@@ -63,7 +54,6 @@ nav a:hover
  	list-style-type: none;
  	margin: 10px;
  	padding: 10px;
-
 }
  .nav-link1
  {
@@ -139,9 +129,6 @@ nav a:hover
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
-
-
 }
 
 
@@ -149,10 +136,6 @@ h2 h3 h4 h5
 {
 	font-weight: bold;
 }
-
-
-
- 
 
 
 
@@ -247,15 +230,29 @@ div .filtre4
 }
 
 
-
-
 .info
 {
 	margin: 40px;
 }
 
-
-
+.iinfo
+{
+	color:white; 
+	background-color: #0065FC; 
+	font-size: 20px; 
+	border-radius: 100px; 
+	border-color: #f2f2f2; 
+}
+.etoilebleu
+{
+	color:#0065FC; 
+	background-color: white;
+}
+.etoilegrise
+{
+	color:#f2f2f2; 
+	background-color: white
+}
 .container /*hebergement*/
 {
 	height: 628px;
@@ -618,13 +615,18 @@ footer
 	background-color: #f2f2f2;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin-top: 10px;
 	padding-top: 25px;
 	padding-bottom: 50px;
 	margin-left: -50px;
 	margin-right: -50px;
 	
+}
+.container4
+{
+	display: inline-flex;
+	padding-left: 70px;
 }
 
 figure
@@ -699,14 +701,12 @@ figure
 	    border-top: none;
         border-bottom: 3px solid #0065fc;
         text-decoration: none;
-
     }
     nav .nav-link2:hover
     {
     	border-top: none;
     	border-bottom: 3px solid #f2f2f2;
     	text-decoration: none;
-
     }
 	.trouver
 	{
@@ -715,15 +715,14 @@ figure
 	    display: flex;
 		flex-direction: row;
 		margin: 15px;
-		padding-top: 55px;
-		
+		padding-top: 55px;	
 	}
 	.epc /*en plein centre ville...*/
 	{
 		font-size: larger;
 		margin: 15px;
 	}
-	.label
+	label
 	{
 		display: none;
 	}
@@ -733,9 +732,7 @@ figure
 		display: block;
 		justify-content: center;
 		align-items: center;
-		border: solid ;
 		padding: 5px;
-	
 	}
 	.filtremot
 	{
@@ -893,6 +890,7 @@ figure
 	
 	footer
 	{
+		display: flex;
 		flex-direction: column;
 		width: auto;
 		padding: 25px;
@@ -900,8 +898,9 @@ figure
 		font-size: larger;
 	}
 	
-	div .container4 
+	p .container4 
 	{
+		
 		padding: 45px;
 		
 	}
