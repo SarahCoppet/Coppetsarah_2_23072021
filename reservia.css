@@ -16,7 +16,6 @@ p
 
  {
  	
- 	margin: auto;
  	font-family: "Raleway", serif, sans-serif;
  	
 }
@@ -621,7 +620,7 @@ footer
 	padding-bottom: 50px;
 	margin-left: -50px;
 	margin-right: -5px;
-	width: auto;
+	width: 100%;
 	
 }
 .container4
@@ -649,7 +648,7 @@ figure
 {
 	#tout
 	{
-		width: auto;
+		width: 100%;
 	}
 	div .reservia img
 	{
@@ -702,7 +701,7 @@ figure
 		font-weight: bold;
 		align-self: flex-end;
 		position: absolute;
-		right: 0px;
+		right: 60px;
 		top: 15px;
 	}
 
@@ -863,7 +862,7 @@ figure
 
 	div .container1 img
 	{
-		width: 500px;
+		width: 350px;
 		height: 250px;
 	}
 	div .container1 figure
@@ -905,7 +904,7 @@ figure
 	}
 	div .container3 img 
 	{
-		width: 500px;
+		width: 390px;
 		height: 250px;
 	}
 
@@ -914,15 +913,14 @@ figure
 	{
 		display: flex;
 		flex-direction: column;
-		padding: 25px;
-		margin: -40px;
+		
 		font-size: larger;
 	}
 	
-	p .container4 
+	.container4 
 	{
-		
-		padding: 45px;
+		display: block;
+		padding-left: 95px;
 		
 	}
 	.reservia
@@ -936,7 +934,7 @@ figure
 {
 	#tout
 	{
-		width: auto;
+		width: 100%;
 	}
 	div .reservia img
 	{
@@ -1095,7 +1093,7 @@ figure
 		width: 400px;
 	}
 
-    .container2
+  .container2
 	{
 		width: 400px;
 		margin-bottom: 10px;
@@ -1222,4 +1220,3 @@ figure
 
 
 }
-
