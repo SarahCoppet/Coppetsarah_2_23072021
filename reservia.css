@@ -663,8 +663,6 @@ footer
 	padding-top: 25px;
 	padding-bottom: 50px;
 	width: 100%;
-	padding-left: 100px;	
-	margin-left: -5%;
 	margin-right: -5%;
 }
 .container4
@@ -673,7 +671,8 @@ footer
 }
 .aa
 	{
-		padding-right: 170px;
+		padding-right: 90px;
+		padding-left: 90px;
 	}
 figure
 {
@@ -830,7 +829,7 @@ figure
 	}
 	.trend
 	{
-		margin-left: 200px;
+		margin-left: auto;
 	}
 	#hebergements
 	{
@@ -884,12 +883,15 @@ figure
  	{
  		max-width: 100%;
  		flex-direction: column;
+ 		padding-left: 60px;	
 
  	} 	
  	.aa 
  	{
  		width: auto;
  		font-size: larger;
+ 		padding-left: 0px;
+ 		padding-right: 0px;
  	}
 
  }
