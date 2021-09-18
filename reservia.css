@@ -70,7 +70,7 @@ nav a:hover
  	color: gray;
  	justify-content: flex-end;
  	position: absolute;
- 	right: 250px;
+ 	right: 290px;
  	top: 0px;
  	text-decoration: none;
  	padding-top: 50px;
@@ -81,7 +81,7 @@ nav a:hover
  	color: #0065FC;
  	justify-content: flex-end;
  	position: absolute;
- 	right: 100px;
+ 	right: 180px;
  	top: 0px;
  	text-decoration: none;
  	padding-top: 50px;
@@ -308,7 +308,7 @@ div .filtre4
 }
 .container /*hebergement*/
 {
-	width: 70%;
+	width: 60%;
 	background-color: #f2f2f2;
 	border-radius: 15px;
 }
@@ -335,7 +335,7 @@ div .container1 a
 {
 	text-decoration: none;
 	color: black;
-	width: 34%;
+	width: 33%;
 	margin-right: -6px;
 }
 .hebergement1
@@ -769,7 +769,7 @@ figure
 		display: flex;
 		flex-flow: wrap row;
 		font-size: larger;
-		padding: 40px;
+		padding: 20px;
 		margin-left: -40px;
 		margin-right: 15px;
 	}
@@ -998,6 +998,7 @@ figure
 		flex-flow: wrap row;
 		font-size: larger;
 		padding: 40px;
+		padding-top: 0;
 		margin-left: -40px;
 		margin-right: 15px;
 	}
