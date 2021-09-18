@@ -893,7 +893,7 @@ figure
  	}
 
 
- @media all and (max-width: 400px)
+ @media all and (max-width: 450px)
  
 
  {
@@ -915,11 +915,11 @@ figure
 	}
  	.nav-link1
 	{
-		width: 43%;
+		width: 63%;
 		display: flex;
 		justify-content: center;
 		position: absolute;
- 	  left: 30px;
+ 	  left: 20px;
  	  top: 50px;
     font-size: larger;
     margin: 20px;
@@ -928,11 +928,11 @@ figure
 	}
 	.nav-link2
 	{
-		width: 40%;
+		width: 70%;
 		display: flex;
 		justify-content: center;
 	  position: absolute;
- 	  right: 0px;
+ 	  right: -180px;
  	  top: 50px;
  	  font-size: larger;
  	  margin: 20px;
@@ -945,7 +945,7 @@ figure
 		font-weight: bold;
 		align-self: flex-end;
 		position: absolute;
-		right: 60px;
+		right: -100px;
 		top: 15px;
 	}
 	nav a:hover 
@@ -967,6 +967,7 @@ figure
 		flex-direction: row;
 		padding-top: 55px;	
 		padding-left: 15px;
+		width: 140%;
 	}
 	.epc /*en plein centre ville...*/
 	{
@@ -992,7 +993,7 @@ figure
 	}
 	.filtres
 	{
-		width: auto;
+		width: 140%;
 		display: flex;
 		flex-flow: wrap row;
 		font-size: larger;
