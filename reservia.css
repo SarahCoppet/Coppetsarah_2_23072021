@@ -831,7 +831,7 @@ figure
 	}
 	#hebergements
 	{
-		padding-left: 0px;
+		
 	}
 	.container
 	{
@@ -887,14 +887,15 @@ figure
  	{
  		max-width: 100%;
  		flex-direction: column;
- 		
+
+ 		 		
 
  	} 	
  	.aa 
  	{
  		width: auto;
  		font-size: larger;
- 		padding-left: 0px;
+ 		padding-left: 20px;
  		padding-right: 0px;
  	}
 
@@ -1047,6 +1048,7 @@ figure
 		margin-left: 0;
 		width: 150%;
 		border-radius: 0px;
+		padding: 30px;
 
 	}
 	.container2 h5
